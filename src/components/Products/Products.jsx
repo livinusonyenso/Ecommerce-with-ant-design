@@ -57,8 +57,10 @@ const getSortedOrder = () => {
             return a.price - b.price 
         }
        else if(sortOrder === 'highLow'){
-            return b.price - b.price 
+            return b.price - a.price 
         }
+        
+        return 0
     });
     return sortedItem
 };

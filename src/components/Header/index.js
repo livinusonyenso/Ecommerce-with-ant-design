@@ -1,10 +1,8 @@
 import { Badge, Button, Checkbox, Drawer, Form, Input, InputNumber, Menu, message, Table } from 'antd';
 import { HomeFilled, ShoppingCartOutlined } from '@ant-design/icons';
 import { useNavigate } from 'react-router-dom';
-import Category from '../pages/Category/Category';
 import Typography from 'antd/es/typography/Typography';
 import { useEffect, useState } from 'react';
-import Title from 'antd/es/typography/Title';
 import { getCart } from '../../API/GetAllProducts';
 
 function AppHeader() {
